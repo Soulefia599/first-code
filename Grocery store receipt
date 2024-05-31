@@ -1,0 +1,34 @@
+ #include <iostream>
+int main() {
+std :: cout << "ARTICLES PRICES" <<'\n';
+std :: cout << "- signal tooth paste : ";
+int x = 11;
+std ::cout <<x;
+std :: cout << "$"<<'\n';
+std ::cout << "- Mamaearth Onion Shampoo : ";
+int y = 35;
+std :: cout <<y;
+std :: cout << "$"<<'\n';
+std :: cout << "- lux soap : ";
+int n = 11;
+std :: cout << n;
+std :: cout << "$"<<'\n';
+std ::cout << "- dior parfum : ";
+int s = 100;
+std :: cout <<s;
+std :: cout << "$"<<'\n';
+std ::cout << "- a set of 20 hair clips : ";
+int r = 20;
+std :: cout <<r;
+std :: cout << "$"<<'\n';
+std ::cout << "- coconut oil shower gel : ";
+int t = 21;
+std :: cout <<t;
+std :: cout << "$"<<'\n';
+std :: cout << " Total : ";
+int sum = x+y+n+s+r+t;
+std :: cout <<sum;
+std :: cout <<"$" << '\n';
+std :: cout <<" thank you for shopping :))";
+return 0;
+}
